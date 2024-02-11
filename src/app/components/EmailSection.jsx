@@ -71,7 +71,7 @@ const EmailSection = () =>
         <p className="text-[#ADB7BE] mb-4 max-w-md overflow-auto">
           {" "}
           
-I'm actively seeking new opportunities and always eager to connect. Whether you have inquiries or simply want to say hello, feel free to reach out! I'll do my best to respond promptly.
+I&apos;m actively seeking new opportunities and always eager to connect. Whether you have inquiries or simply want to say hello, feel free to reach out! I'll do my best to respond promptly.
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/kevcodeus">
