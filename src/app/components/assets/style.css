@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #12172b;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4px;
+  font-size: 80px;
+}
+
+
+
+.skill {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.skill-title {
+  font-size: 19px;
+  margin-bottom: px;
+}
+
+.skill-bar {
+  width: 100%;
+  background: rgba(16, 241, 23, 0.6);
+  display: block;
+  height: 40px;
+  border: 1px solid rgba(192, 16, 16, 0.6),0 1px rgba(0, 0, 0, 0.24);
+  overflow:hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25,.8,.25,1);
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+
+.skill-fill {
+  background: #a73eab;
+  height: 20px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 9px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  font-size: 15px;
+}
+
+.html {
+  animation: html 2s;
+  width: 50%;
+}
+
+.css {
+  animation: css 2s;
+  width: 80%;
+}
+
+.js {
+  animation: js 2s;
+  width: 70%;
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skills-area {
+    padding: 0 5%;
+  }
+}
